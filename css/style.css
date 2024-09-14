@@ -67,10 +67,10 @@ body{
     display: flex;
     flex-direction: column;
 }
-.container_introduccion{
-    margin-top: 300px;
+.section{
+    margin-top: 350px;
 }
-.introduccion_nombre{
+.introduccion_titulo{
     display: flex;
     align-items: center;
 }
@@ -111,6 +111,57 @@ body{
     font-size: 0.8rem;
     margin-left: 10px;
     color: var(--iconos);
+}
+
+.section_sobremi{
+    margin-top: 350px;
+}
+.container_articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.informacion{
+    max-width: 400px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.separador_texto{
+    display: flex;
+    width: 270px;
+    justify-content: start;
+    
+}
+.texto_article{
+    font-size: 1rem;
+}
+.texto_tarjetas{
+    font-size: 1rem;
+}
+.tarjetas{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container_tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);
+    width: 170px;
+    height: 120px;
+}
+.texto_verde_tarjetas{
+    margin-top: 20px;
 }
 /*Variables*/
 :root{
