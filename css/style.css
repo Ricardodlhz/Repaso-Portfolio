@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
@@ -8,9 +9,7 @@ body{
     padding: 0;
     background-color: var(--fondo);
 }
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .container_fijo{
         background-color: var(--fondo_container_fijo);
         position: fixed;
@@ -20,9 +19,10 @@ p{
         justify-content: center;
         align-items: center;
         width: 400px;
+        height: 100%;
 }
 .img_profile{
-    border: 5px solid var(--borde_img_profile);
+    border: 8px solid var(--borde_img_profile);
     border-radius: 100%;
     width: 100px;
 }
@@ -58,9 +58,64 @@ p{
     border-radius: 2rem;
     background-color: rgb(59, 59, 59);
 }
+.texto_boton:hover{
+    cursor: pointer;
+    background-color: rgb(92, 92, 92);
+}
+.container_derecha{
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.container_introduccion{
+    margin-top: 300px;
+}
+.introduccion_nombre{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+        color: white;
+        font-size: 2rem;
+        margin: 0;
+}
+.texto{
+    color: white;
+    font-size: 1.4rem;
+}
+.texto_verde{
+    margin-left: 10px;
+    color: lime;
+}
+.texto_informativo{
+    color: rgb(172, 171, 171);
+}
+.texto_info{
+    font-size: 0.8rem;
+    color: rgb(172, 171, 171);
+}
+.container_botones_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(59, 59, 59);
+    background-color: rgb(59, 59, 59);
+    border-radius: 2rem;
+    width: 170px;
+}
+.container_botones_info:hover{
+    cursor: pointer;
+    background-color: rgb(208, 255, 1);
+}
+.iconos{
+    font-size: 0.8rem;
+    margin-left: 10px;
+    color: var(--iconos);
+}
 /*Variables*/
 :root{
-    --fondo:black;
+    --fondo:rgb(19, 18, 18);
     --fondo_container_fijo:rgb(36, 35, 35);
     --borde_img_profile:rgb(17, 218, 17);
+    --iconos:rgb(17, 218, 17);
 }
