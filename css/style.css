@@ -9,7 +9,7 @@ body{
     padding: 0;
     background-color: var(--fondo);
 }
-
+/*Menu de la izquierda*/
 .container_fijo{
         background-color: var(--fondo_container_fijo);
         position: fixed;
@@ -67,6 +67,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+/*Sección introductoria*/
 .section{
     margin-top: 350px;
 }
@@ -113,6 +114,7 @@ body{
     color: var(--iconos);
 }
 
+/* Seccion sobre mi */
 .section_sobremi{
     margin-top: 350px;
 }
@@ -162,6 +164,63 @@ body{
 }
 .texto_verde_tarjetas{
     margin-top: 20px;
+}
+
+
+/*Sección sobre mi formacion*/
+.container_formacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+.fechas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(59, 59, 59);
+    background-color: rgb(59, 59, 59);
+    border-radius: 2rem;
+    width: 120px;
+}
+.formacion{
+    margin-top: 40px;
+    border-left: 2px solid rgb(181, 218, 17);
+    width: 200px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container_texto_formacion{
+    margin-left: 15px;
+}
+.title_formacion{
+    color: rgb(181, 218, 17);
+    font-size: 1.2rem;
+}
+.texto_formacion{
+    font-size: 1rem;
+}
+
+.container_birrete{
+    position: relative;
+    top: 0px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 218, 17);
+    border-radius: 100%;
+}
+.birrete{
+    color: rgb(59, 59, 59);
+   
+    font-size: 1.6rem;
 }
 /*Variables*/
 :root{
