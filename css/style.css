@@ -278,8 +278,59 @@ body {
     /* object-fit: contain; */
 }
 
-/*Contacto*/
 
+/*Contacto*/
+.container_section_contacto{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    align-items: center;
+}
+.container_contacto{
+        
+        display: flex;
+        flex-direction: column;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs{
+    height: 30px;
+    color: white;
+    border: 1px solid rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);
+}
+.inputs:focus{
+    outline: none;
+    color: rgb(17, 218, 17);
+}
+.enviar{
+    color: rgb(172, 171, 171);
+    border: 1px solid rgb(59, 59, 59);
+    background-color: rgb(59, 59, 59);
+    border-radius: 2rem;
+    width: 170px;
+    height: 30px;
+}
+
+.icono_enviar{
+    position: relative;
+    right: 60px;
+}
+.enviar:hover {
+    cursor: pointer;
+    background-color: rgb(208, 255, 1);
+}
 /*Variables*/
 :root {
     --fondo: rgb(19, 18, 18);
